@@ -1,0 +1,35 @@
+{
+	"name": "string.prototype.split",
+	"version": "0.0.0",
+	"description": "An ES spec-compliant `String.prototype.split` shim/polyfill/replacement that works as far down as ES3",
+	"main": "index.js",
+	"exports": {
+		".": [
+			{
+				"node": "./index.js",
+				"default": "./index.js"
+			},
+			"./index.js"
+		],
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/String.prototype.split.git"
+	},
+	"keywords": [
+		"es-shim API",
+		"ESnext",
+		"shim",
+		"polyfill"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/String.prototype.split/issues"
+	},
+	"homepage": "https://github.com/es-shims/String.prototype.split#readme"
+}
