@@ -2,4 +2,14 @@
 	"root": true,
 
 	"extends": "@ljharb",
+
+	"overrides": [
+		{
+			"files": "test/**",
+			"rules": {
+				"max-lines-per-function": 0,
+				"no-useless-call": 1,
+			},
+		},
+	],
 }
