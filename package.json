@@ -17,7 +17,9 @@
 		"prepublish": "safe-publish-latest",
 		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -40,7 +42,16 @@
 	"homepage": "https://github.com/es-shims/String.prototype.split#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.1.0",
+		"auto-changelog": "^2.2.0",
 		"eslint": "^7.7.0",
 		"safe-publish-latest": "^1.1.4"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true
 	}
 }
