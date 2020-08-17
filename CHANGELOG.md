@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/String.prototype.split/compare/v1.0.0...v1.0.1) - 2020-08-16
+
+### Commits
+
+- readme [`d8ee27c`](https://github.com/es-shims/String.prototype.split/commit/d8ee27cf62434dd71d1506cb8072a098c94212f9)
+
 ## v1.0.0 - 2020-08-16
 
 ### Commits
