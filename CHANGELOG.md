@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/String.prototype.split/compare/v1.0.1...v1.0.2) - 2020-11-19
+
+### Commits
+
+- [Tests] migrate tests to Github Actions [`3051ffa`](https://github.com/es-shims/String.prototype.split/commit/3051ffa88381eb811580444f9c1849ffc3a06e53)
+- [meta] do not publish github action workflow files [`aba1b8c`](https://github.com/es-shims/String.prototype.split/commit/aba1b8cd8273f8ea5cb7f386934e7d9282e335c0)
+- [Tests] run `nyc` on all tests [`c13200e`](https://github.com/es-shims/String.prototype.split/commit/c13200e43d89e97944f7ec47f7c8c07696ad45d4)
+- [Refactor] add `get-intrinsic` and `call-bind` [`b3d60d8`](https://github.com/es-shims/String.prototype.split/commit/b3d60d83226bf932610b71c4596d22309467c700)
+- [actions] add "Allow Edits" workflow [`f80d595`](https://github.com/es-shims/String.prototype.split/commit/f80d595d3b4fc7a45aeaaf75eb909283019cf6ef)
+- [Tests] make 0.6 required [`75f6023`](https://github.com/es-shims/String.prototype.split/commit/75f6023937d0b733a0b59987dbe36f9f08c3c050)
+- [Robustness] cache `String.prototype.split.apply` in the implementation [`ef5b3cd`](https://github.com/es-shims/String.prototype.split/commit/ef5b3cd7ad095fb470734ec8196a0324fd39edb2)
+- [Tests] add `aud` [`bf4ef72`](https://github.com/es-shims/String.prototype.split/commit/bf4ef7270c4ba714d5ace50f680f2ada515c4acc)
+
 ## [v1.0.1](https://github.com/es-shims/String.prototype.split/compare/v1.0.0...v1.0.1) - 2020-08-16
 
 ### Commits
