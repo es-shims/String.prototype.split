@@ -1,8 +1,8 @@
 'use strict';
 
-var GetIntrinsic = require('es-abstract/GetIntrinsic');
-var callBind = require('es-abstract/helpers/callBind');
-var callBound = require('es-abstract/helpers/callBound');
+var GetIntrinsic = require('get-intrinsic');
+var callBind = require('call-bind');
+var callBound = require('call-bind/callBound');
 var ToUint32 = require('es-abstract/2020/ToUint32');
 var regexFlags = require('regexp.prototype.flags');
 var isRegex = require('is-regex');

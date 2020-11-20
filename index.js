@@ -1,7 +1,7 @@
 'use strict';
 
 var define = require('define-properties');
-var callBind = require('es-abstract/helpers/callBind');
+var callBind = require('call-bind');
 var RequireObjectCoercible = require('es-abstract/2020/RequireObjectCoercible');
 
 var implementation = require('./implementation');

@@ -1,6 +1,6 @@
 'use strict';
 
-var callBound = require('es-abstract/helpers/callBound');
+var callBound = require('call-bind/callBound');
 
 var strSplit = callBound('String.prototype.split');
 
