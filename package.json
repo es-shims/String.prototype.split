@@ -46,7 +46,7 @@
 		"tests-only": "nyc tape 'test/*.js'",
 		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
-		"posttest": "npx aud",
+		"posttest": "aud --production",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
@@ -78,6 +78,7 @@
 	"devDependencies": {
 		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^17.1.0",
+		"aud": "^1.1.3",
 		"auto-changelog": "^2.2.0",
 		"eslint": "^7.7.0",
 		"functions-have-names": "^1.2.1",
