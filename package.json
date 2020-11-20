@@ -43,8 +43,8 @@
 		"lint": "eslint --ext=js,mjs .",
 		"postlint": "es-shim-api --bound",
 		"pretest": "npm run lint",
-		"tests-only": "tape 'test/*.js'",
-		"tests-esm": "node test/index.mjs",
+		"tests-only": "nyc tape 'test/*.js'",
+		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
 		"posttest": "npx aud",
 		"version": "auto-changelog && git add CHANGELOG.md",
@@ -82,6 +82,7 @@
 		"eslint": "^7.7.0",
 		"functions-have-names": "^1.2.1",
 		"has-strict-mode": "^1.0.0",
+		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
