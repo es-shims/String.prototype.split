@@ -20,7 +20,7 @@ module.exports = function getPolyfill() {
 	}
 
 	/*
-	 * [bugfix, chrome]
+	 * [bugfix, chrome, node 0.8]
 	 * If separator is undefined, then the result array contains just one String,
 	 * which is the this value (converted to a String). If limit is not undefined,
 	 * then the output array is truncated so that it contains no more than limit
@@ -28,8 +28,7 @@ module.exports = function getPolyfill() {
 	 * "0".split(undefined, 0) -> []
 	 */
 	if ('0'.split(void 0, 0).length) {
-		// eslint-disable-next-line global-require
-		return require('./implementation-undefined-separator');
+		return implementation;
 	}
 
 	return String.prototype.split;
