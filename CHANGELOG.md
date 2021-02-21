@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/String.prototype.split/compare/v1.0.3...v1.0.4) - 2021-02-21
+
+### Commits
+
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `has-strict-mode`, `tape` [`0643a95`](https://github.com/es-shims/String.prototype.split/commit/0643a95721130ea1405e0e8638798e5db50dc091)
+- [Deps] update `call-bind`, `es-abstract`, `get-intrinsic`, `is-regex`, `regexp.prototype.flags` [`6b9da47`](https://github.com/es-shims/String.prototype.split/commit/6b9da4733861b7cec614900d8dcb39543e8cc746)
+- [actions] update workflows [`2e1745b`](https://github.com/es-shims/String.prototype.split/commit/2e1745b577304668694df3618794a14555dc314d)
+- [readme] fix repo URLs; remove travis badge [`d1e9b0a`](https://github.com/es-shims/String.prototype.split/commit/d1e9b0af05bb2bb310fffee672a172046190a065)
+- [Tests] increase coverage [`520685b`](https://github.com/es-shims/String.prototype.split/commit/520685b608b4a545db645d2eaf95b73d18919d31)
+
 ## [v1.0.3](https://github.com/es-shims/String.prototype.split/compare/v1.0.2...v1.0.3) - 2020-11-21
 
 ### Commits
