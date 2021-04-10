@@ -39,7 +39,8 @@
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"prepublish": "safe-publish-latest",
+		"prepublish": "not-in-publish || npm run prepublishOnly",
+		"prepublishOnly": "safe-publish-latest",
 		"lint": "eslint --ext=js,mjs .",
 		"postlint": "es-shim-api --bound",
 		"pretest": "npm run lint",
