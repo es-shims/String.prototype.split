@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/String.prototype.split/compare/v1.0.4...v1.0.5) - 2021-10-04
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`dd30e86`](https://github.com/es-shims/String.prototype.split/commit/dd30e869165ac434aafe81815d28106dfab33f17)
+- [Refactor] remove ESM entry points [`928c49d`](https://github.com/es-shims/String.prototype.split/commit/928c49d82105e40ae310b0e5555e48d5455a9eac)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`98d6443`](https://github.com/es-shims/String.prototype.split/commit/98d6443af088b9b82df2c350543a3df672b66e1e)
+- [Deps] update `es-abstract`, `is-regex` [`0e0c732`](https://github.com/es-shims/String.prototype.split/commit/0e0c732db9a61a33745da07232f97172c04b8ab0)
+- [readme] add github actions/codecov badges [`8f121f2`](https://github.com/es-shims/String.prototype.split/commit/8f121f216f828b89043aa2fedcb8ef83ca9750fe)
+- [actions] update workflows [`deb519b`](https://github.com/es-shims/String.prototype.split/commit/deb519b77aa65254e378a88b93bcd4b7f7c5e2f6)
+- [Dev Deps] update `eslint`, `tape` [`c5c02a6`](https://github.com/es-shims/String.prototype.split/commit/c5c02a629f934b7282f5e18d9e14afff19ea6ef9)
+- [meta] use `prepublishOnly` script for npm 7+ [`bca1b3d`](https://github.com/es-shims/String.prototype.split/commit/bca1b3d27a262e178bb8d511c08dd9f1e44ecb1f)
+- [Tests] fix `nyc@10` with `node` `v12.2` - `v12.15` [`e162f03`](https://github.com/es-shims/String.prototype.split/commit/e162f038bd1b4815e6bb892522631670585c3216)
+- [Deps] update `es-abstract` [`8c90fe4`](https://github.com/es-shims/String.prototype.split/commit/8c90fe47a94f1319ba516a06171b1669a77ae061)
+- [Fix] add `auto` entry point to "exports" [`8d7e4ec`](https://github.com/es-shims/String.prototype.split/commit/8d7e4ec0428fd261f86163d13d56a5904047cbf9)
+
 ## [v1.0.4](https://github.com/es-shims/String.prototype.split/compare/v1.0.3...v1.0.4) - 2021-02-21
 
 ### Commits
