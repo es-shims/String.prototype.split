@@ -24,7 +24,7 @@
 		"lint": "eslint --ext=js,mjs .",
 		"postlint": "es-shim-api --bound",
 		"pretest": "npm run lint",
-		"tests-only": "nyc tape 'test/*.js'",
+		"tests-only": "nyc --exclude='**/*.mjs' tape 'test/*.js'",
 		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
 		"posttest": "aud --production",
