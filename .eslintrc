@@ -9,16 +9,11 @@
 		"max-statements": 1,
 		"new-cap": [2, {
 			"capIsNewExceptions": [
-				"CreateArrayIterator",
 				"GetIntrinsic",
-				"IsCallable",
 				"RequireObjectCoercible",
-				"ToObject",
 				"ToUint32",
 			],
 		}],
-		"no-restricted-exports": 1,
-		"operator-linebreak": [2, "before"],
 	},
 
 	"overrides": [
@@ -26,7 +21,6 @@
 			"files": "test/**",
 			"rules": {
 				"max-lines-per-function": 0,
-				"no-useless-call": 1,
 			},
 		},
 	],
