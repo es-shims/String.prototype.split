@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6](https://github.com/es-shims/String.prototype.split/compare/v1.0.5...v1.0.6) - 2022-04-08
+
+### Commits
+
+- [actions] reuse common workflows [`bb283ec`](https://github.com/es-shims/String.prototype.split/commit/bb283eca97bb62d8ba511078c3b2ea9e3faa69df)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`2009e5c`](https://github.com/es-shims/String.prototype.split/commit/2009e5c8c2d344e4b79bd3809c69aba464286271)
+- [actions] update codecov uploader [`0ec83c6`](https://github.com/es-shims/String.prototype.split/commit/0ec83c6b43fca83fbdc0108f67a1265b6be953f8)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`148a49c`](https://github.com/es-shims/String.prototype.split/commit/148a49c2d9f02e44dce64221597dc377cd1c5294)
+- [Deps] update `es-abstract`, `regexp.prototype.flags` [`003e2bc`](https://github.com/es-shims/String.prototype.split/commit/003e2bc6e39366e938273e8faf39126a1d84c890)
+- [Robustness] `test` observably looks up `exec` on the object [`a6f8a68`](https://github.com/es-shims/String.prototype.split/commit/a6f8a688a3fdf6950d1984404a73796a6bbdbc81)
+
 ## [v1.0.5](https://github.com/es-shims/String.prototype.split/compare/v1.0.4...v1.0.5) - 2021-10-04
 
 ### Commits
