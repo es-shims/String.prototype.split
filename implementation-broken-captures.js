@@ -14,7 +14,6 @@ var $replace = callBound('Array.prototype.replace');
 var strSplit = callBound('String.prototype.split');
 var strSlice = callBound('String.prototype.slice');
 var $exec = callBound('RegExp.prototype.exec');
-var $test = callBound('RegExp.prototype.test');
 
 var compliantExecNpcg = typeof $exec(/()??/, '')[1] === 'undefined'; // NPCG: nonparticipating capturing group
 var maxSafe32BitInt = Math.pow(2, 32) - 1;
@@ -85,7 +84,7 @@ module.exports = function split(separator, limit) {
 		match = $exec(separatorCopy, string);
 	}
 	if (lastLastIndex === string.length) {
-		if (lastLength || !$test(separatorCopy, '')) {
+		if (lastLength || !$exec(separatorCopy, '')) {
 			$push(output, '');
 		}
 	} else {
