@@ -9,7 +9,7 @@ var getPolyfill = require('./polyfill');
 var shim = require('./shim');
 
 var bound = callBind(getPolyfill());
-var boundMethod = function method(receiver, separator, limit) {
+var boundMethod = function split(receiver, separator, limit) {
 	RequireObjectCoercible(receiver);
 	return bound(receiver, separator, limit);
 };
