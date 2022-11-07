@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.7](https://github.com/es-shims/String.prototype.split/compare/v1.0.6...v1.0.7) - 2022-11-07
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`8937c2c`](https://github.com/es-shims/String.prototype.split/commit/8937c2c7d5270ae44008f303c4a5072adb24aeeb)
+- [actions] update rebase action to use reusable workflow [`faadd00`](https://github.com/es-shims/String.prototype.split/commit/faadd0060f25673326e43343f99d192bdc0e8b47)
+- [Deps] update `es-abstract`, `get-intrinsic` [`f4238bc`](https://github.com/es-shims/String.prototype.split/commit/f4238bc4f0887a6d34389e7d920e4137d0b47555)
+- [Deps] update `define-properties`, `es-abstract`, `regexp.prototype.flags` [`6ae258a`](https://github.com/es-shims/String.prototype.split/commit/6ae258a5927acb9c176f7983c2ca27b8f3e16c27)
+- [Dev Deps] update `aud`, `tape` [`c23a919`](https://github.com/es-shims/String.prototype.split/commit/c23a919b717efec7e524e147532cdf9f1f042ef7)
+- [Dev Deps] update `@ljharb/eslint-config`, `functions-have-names` [`c351cf4`](https://github.com/es-shims/String.prototype.split/commit/c351cf46bd13f72645a7745dd89281d3774f8e7b)
+- [Fix] main entry point is named "split" [`bb8f836`](https://github.com/es-shims/String.prototype.split/commit/bb8f8361dbb9571bfcf775a43f39cfe47cbdf815)
+
 ## [v1.0.6](https://github.com/es-shims/String.prototype.split/compare/v1.0.5...v1.0.6) - 2022-04-08
 
 ### Commits
