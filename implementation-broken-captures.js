@@ -3,7 +3,7 @@
 var GetIntrinsic = require('get-intrinsic');
 var callBind = require('call-bind');
 var callBound = require('call-bind/callBound');
-var ToUint32 = require('es-abstract/2021/ToUint32');
+var ToUint32 = require('es-abstract/2022/ToUint32');
 var regexFlags = require('regexp.prototype.flags');
 var isRegex = require('is-regex');
 
