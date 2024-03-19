@@ -14,12 +14,14 @@ var $replace = callBound('Array.prototype.replace');
 var strSplit = callBound('String.prototype.split');
 var strSlice = callBound('String.prototype.slice');
 var $exec = callBound('RegExp.prototype.exec');
+var $RegExp = GetIntrinsic('%RegExp%');
+var $String = GetIntrinsic('%String%');
 
 var compliantExecNpcg = typeof $exec(/()??/, '')[1] === 'undefined'; // NPCG: nonparticipating capturing group
 var maxSafe32BitInt = Math.pow(2, 32) - 1;
 
 module.exports = function split(separator, limit) {
-	var string = String(this);
+	var string = $String(this);
 	if (typeof separator === 'undefined' && limit === 0) {
 		return [];
 	}
@@ -34,10 +36,10 @@ module.exports = function split(separator, limit) {
 	var lastLastIndex = 0;
 	// Make `global` and avoid `lastIndex` issues by working with a copy
 	var separator2, lastIndex, lastLength;
-	var separatorCopy = new RegExp(separator.source, flags + 'g');
+	var separatorCopy = new $RegExp(separator.source, flags + 'g');
 	if (!compliantExecNpcg) {
 		// Doesn't need flags gy, but they don't hurt
-		separator2 = new RegExp('^' + separatorCopy.source + '$(?!\\s)', flags);
+		separator2 = new $RegExp('^' + separatorCopy.source + '$(?!\\s)', flags);
 	}
 	/*
 	 * Values for `limit`, per the spec:
